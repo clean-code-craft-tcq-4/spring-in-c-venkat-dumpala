@@ -12,15 +12,14 @@ int ledAlertCallCount = 0;
 float max1 = 0;
 float sum = 0;
 float avg = 0;
-float min1 = 340282346638528859811704183484516925440;
-
+float min1 = numberset[0];
 for(int i = 0; i< setlength ; i++)
 {
     sum = sum + numberset[i];
     if (numberset[i] > max1)
-        max1 = vnumberset[i];
+        max1 = numberset[i];
     if (numberset[i] < min1)
-        min1 = vnumberset[i];
+        min1 = numberset[i];
 }
 
 avg = (float)(sum/setlength);
