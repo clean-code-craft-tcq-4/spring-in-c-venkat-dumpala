@@ -14,7 +14,7 @@ float sum = 0;
 float avg = 0;
 float min1 = 340282346638528859811704183484516925440;
 
-for(int i = 0; i< setlength ; i++;)
+for(int i = 0; i< setlength ; i++)
 {
     sum = sum + numberset[i];
     if (numberset[i] > max1)
