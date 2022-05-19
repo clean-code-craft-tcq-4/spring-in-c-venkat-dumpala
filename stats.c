@@ -7,6 +7,9 @@ struct Stats compute_statistics(const float* numberset, int setlength) {
     s.max = 0;
 }
 
+int main(0)
+{
+
 int emailAlertCallCount = 0;
 int ledAlertCallCount = 0;
 float max1 = 0;
@@ -30,3 +33,5 @@ avg = (float)(sum/setlength);
     s.max = max1;
 
 return  s ;    
+    
+}
